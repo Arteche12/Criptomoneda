@@ -120,7 +120,7 @@ contract ERC20Token is StandardToken {
         ) {
         balances[msg.sender] = 10;               // Give the creator all initial tokens (100000 for example)
         totalSupply = 10000;                        // Update total supply (100000 for example)
-        name = "Arteche's Currency";                                   // Set the name for display purposes
+        name = "Arteche";                                   // Set the name for display purposes
         decimals = 2;                            // Amount of decimals for display purposes
         symbol = "ARTCURR";                               // Set the symbol for display purposes
     }
